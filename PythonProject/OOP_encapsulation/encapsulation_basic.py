@@ -1,4 +1,4 @@
-class person:
+class Person:
     def __init__(self):
         self.__name = None
         self.__age = 0
@@ -30,7 +30,7 @@ class person:
         self.__address = address
 
 
-p = person()
+p = Person()
 p.set_name("harsh")
 p.set_age(23)
 p.set_dob("05-06-2003")

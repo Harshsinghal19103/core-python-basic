@@ -28,8 +28,8 @@ class account:
 
     def withdrawal(self, amt):
         if amt > self.__money:
-            print("insufficent balance")
-        elif amt > 20000:PythonProjectPythonProject
+            print("insufficient balance")
+        elif amt > 20000:
             print("you cannot withdraw money")
         else:
             self.__withdrawal_count > 5
