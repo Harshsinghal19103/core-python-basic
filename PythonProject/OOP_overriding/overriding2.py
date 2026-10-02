@@ -15,7 +15,10 @@ class Shape:
 
 class Rectangle(Shape):
     def __init__(self, length, breadth):
+<<<<<<< HEAD
         super().area()
+=======
+>>>>>>> fd8aad9d56b3d3b4b427d0a0f4c03afa4cb327d7
         self.length = length
         self.breadth = breadth
 
