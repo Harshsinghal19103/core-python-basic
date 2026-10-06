@@ -3,7 +3,27 @@ class Shape:
         self.color = color
         self.border = border
 
+<<<<<<< HEAD
     def color(self):
+=======
+<<<<<<< HEAD
+    def color(self):
+=======
+<<<<<<< HEAD
+    def color(self):
+=======
+<<<<<<< HEAD
+    def color(self):
+=======
+<<<<<<< HEAD
+    def color(self):
+=======
+    def get_color(self):
+>>>>>>> 1295fc64fe3d7fab5f3e522978d319dcdf50b206
+>>>>>>> 5e05695f7ba3765ab6736ae671bf3142800198d0
+>>>>>>> 92efe15a2df1c79dd2d0580f69f9c03ab3c1a932
+>>>>>>> fd8aad9d56b3d3b4b427d0a0f4c03afa4cb327d7
+>>>>>>> 2535e577d67d43feaf59af1876ab2ad81b8368f6
         return self.color
 
     def get_border(self):
@@ -33,6 +53,19 @@ class circle(Shape):
 
 
 r = Rectangle(40, 30, "red", 20)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5e05695f7ba3765ab6736ae671bf3142800198d0
+>>>>>>> 92efe15a2df1c79dd2d0580f69f9c03ab3c1a932
+>>>>>>> fd8aad9d56b3d3b4b427d0a0f4c03afa4cb327d7
+>>>>>>> 2535e577d67d43feaf59af1876ab2ad81b8368f6
 c = circle(3.5,"blue",15)
 
 print("circle")
@@ -40,6 +73,25 @@ print(c.radius)
 print(c.color)
 print(c.border)
 print("rectangle")
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+s = circle(3.5,"blue",15)
+
+print(s.radius)
+print(s.color)
+print(s.border)
+>>>>>>> 1295fc64fe3d7fab5f3e522978d319dcdf50b206
+>>>>>>> 5e05695f7ba3765ab6736ae671bf3142800198d0
+>>>>>>> 92efe15a2df1c79dd2d0580f69f9c03ab3c1a932
+>>>>>>> fd8aad9d56b3d3b4b427d0a0f4c03afa4cb327d7
+>>>>>>> 2535e577d67d43feaf59af1876ab2ad81b8368f6
 print(r.width)
 print(r.length)
 print(r.color)
