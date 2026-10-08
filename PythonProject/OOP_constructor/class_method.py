@@ -18,10 +18,8 @@ Shape.test()
 s= Shape()
 s.area()
 
-<<<<<<< HEAD
+
 r = Rectangle()
 r.test()
 r.area()
 
-=======
->>>>>>> 2535e577d67d43feaf59af1876ab2ad81b8368f6

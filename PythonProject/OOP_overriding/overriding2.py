@@ -15,7 +15,9 @@ class Shape:
 
 class Rectangle(Shape):
     def __init__(self, length, breadth):
+
         super().area()
+
         super().area()
 
         self.length = length

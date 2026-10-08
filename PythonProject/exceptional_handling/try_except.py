@@ -7,9 +7,9 @@ print("mid")
 
 try:
     c = a / b
-    print("division", c)
+    print("result:",c)
 
 except ZeroDivisionError as e:
-    print('exception:', e)
+    print("error:",e)
 
 print("after")
