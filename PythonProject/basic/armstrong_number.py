@@ -14,8 +14,6 @@
 #     print("it is not armstrong number")
 
 
-num = 0
-
 def armstrong_number(num):
     n = num
     sum = 0
@@ -30,4 +28,4 @@ def armstrong_number(num):
         print("number is not armstrong number")
 
 
-armstrong_number(170)
+armstrong_number(153)

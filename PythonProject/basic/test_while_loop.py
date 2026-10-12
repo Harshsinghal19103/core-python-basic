@@ -1,5 +1,5 @@
 # while True:
-#     print("hello")
+#     print("hello.txt")
 
 # i = 1
 #

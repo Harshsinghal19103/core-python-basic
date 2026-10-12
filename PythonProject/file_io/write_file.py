@@ -1,0 +1,9 @@
+def Writefile():
+
+    file = open("../files/hii.txt","w")
+
+    file.write("hi brock \n ")
+    file.write("welcome to gaming world")
+    file.close()
+
+Writefile()
