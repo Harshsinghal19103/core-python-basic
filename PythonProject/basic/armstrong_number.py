@@ -30,4 +30,4 @@ def armstrong_number(num):
         print("number is not armstrong number")
 
 
-armstrong_number(170)
+armstrong_number(153)
