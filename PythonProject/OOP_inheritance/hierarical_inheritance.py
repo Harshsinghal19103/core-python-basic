@@ -40,14 +40,8 @@ print("circle")
 print(c.radius)
 print(c.color)
 print(c.border)
+
 print("rectangle")
-
-s = circle(3.5, "blue", 15)
-
-print(s.radius)
-print(s.color)
-print(s.border)
-
 print(r.width)
 print(r.length)
 print(r.color)

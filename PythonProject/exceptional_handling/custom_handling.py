@@ -1,4 +1,4 @@
-class Loginexception(Exception):
+class LoginException(Exception):
 
     def __init__(self,msge):
         super().__init__(msge)
@@ -11,7 +11,7 @@ try:
         print("valid user")
 
     else:
-        raise Loginexception("invalid user")
+        raise LoginException("invalid user")
 
-except Loginexception as e:
+except LoginException as e:
     print("exception:",e)

@@ -8,7 +8,7 @@ class Shape(ABC):
 
     @abstractmethod
     def area(self):
-        pass
+        pass                 #to force child to do override method
 
 
 class Rectangle(Shape):

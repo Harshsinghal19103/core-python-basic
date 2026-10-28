@@ -16,6 +16,6 @@ else:
     print("it is correct")
 
 finally:
-    print("it should work any way")
+    print("it will print any way")
 
 print("after")

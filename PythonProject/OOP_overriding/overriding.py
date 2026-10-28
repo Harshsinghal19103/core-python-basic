@@ -7,18 +7,9 @@ class Parents:
         print("follow parents footsteps")
         self.hobby()
 
-    def passion(self):
-        print("follow parents footsteps")
-
 
 class Eldest_child(Parents):
     pass
-
-
-class Youngest_child(Parents):
-
-    def passion(self):
-        print("i will follow my dreams")
 
 
 class Middle_child(Parents):
@@ -43,18 +34,5 @@ p.passion()
 y = Youngest_child()
 y.passion()
 
-dream: Parents = Eldest_child()
-
-dream.passion()
-
-dream.passion()
-
-dream.passion()
-
-dream.passion()
-
 m = Middle_child()
 m.passion()
-
-y = Youngest_child()
-y.passion()

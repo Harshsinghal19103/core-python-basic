@@ -22,7 +22,7 @@ def armstrong_number(num):
         sum = sum + (rem * rem * rem)
         n = n // 10
 
-    if num == sum:
+    if sum == num:
         print("number is armstrong number")
     else:
         print("number is not armstrong number")

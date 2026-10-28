@@ -48,11 +48,11 @@ class Automobile:
             print("your vehicle is moving at speed:", self.__speed)
 
     def gear(self, no):
-        if no >= Automobile.GEARS:
+        if no > Automobile.GEARS:
             print("vehicle at neutral")
         elif no == 6:
             self.__speed == 120
-            print("your speed should be higher than 120 at gear 6", self.__speed)
+            print("your speed should be higher than 120 at gear 6")
         elif no == 5:
             self.__speed == 90
             print("your speed should be higher than 90 at gear 5")
@@ -86,4 +86,4 @@ print("speed:", c.get_speed())
 c.get_accelerate()
 c.get_breaks()
 
-c.gear(1)
+c.gear(6)

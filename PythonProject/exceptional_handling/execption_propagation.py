@@ -7,7 +7,7 @@ class Insufficientfund(Exception):
 class Account:
 
     def __init__(self):
-        self.balance = 0
+        self.balance = 0           #balance is a instance variable
 
     def set_balance(self,balance):
         self.balance = balance
@@ -27,9 +27,10 @@ class Account:
             print("balance money",self.balance,"withdrawal money",amount)
 
         else:
-            raise Insufficientfund("money should be more than 2000 in account")
+            raise Insufficientfund("money should be minimum 2000 in account")
 
 
+# exception will be handled where we call the function
 
 acc = Account()
 acc.set_balance(5000)

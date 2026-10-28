@@ -10,13 +10,11 @@ class Shape:
         return False
 
     def area(self):
-        print("shape method execute")
+        print("shape area execute")
 
 
 class Rectangle(Shape):
     def __init__(self, length, breadth):
-
-        super().area()
 
         super().area()
 
@@ -39,10 +37,12 @@ class Circle(Shape):
     PI = 3.14
 
     def __init__(self, radius):
+        super().area()
+
         self.radius = radius
 
     def validation(self):
-        if self.radius:
+        if self.radius > 0:
             return True
         else:
             return False
@@ -52,16 +52,19 @@ class Circle(Shape):
         print("circle area:", circle_area)
         return circle_area
 
+
 class Triangle(Shape):
     pass
 
-r = Rectangle(10 ,20)
+
+r = Rectangle(10, 20)
 r.execute()
 
-c =Circle(8)
+c = Circle(8)
 c.execute()
 
-r = Rectangle(-6 ,20)
+r = Rectangle(-6, 20)
 r.execute()
+
 t = Triangle()
 t.execute()
